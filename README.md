@@ -17,7 +17,9 @@ Appending Strings: The append() method adds the corresponding Roman numeral (num
 
 Converting to a String: Once all Roman numeral symbols have been appended, the toString() method converts the StringBuilder contents into a standard String for the final output.
 
-## this is a list
-* one 
-* two 
-* three
+# heading one
+## heading two
+### heading three
+#### heading four
+##### heading five
+###### heading six
