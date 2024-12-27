@@ -9,11 +9,14 @@ public class SolutionGPT {
         StringBuilder roman = new StringBuilder();
 
         // Iterate through the values and symbols
+        System.out.println("the length of the values is : " + values.length);
         for (int i = 0; i < values.length; i++) {
+
             // Subtract the value from num as many times as possible
             while (num >= values[i]) {
                 roman.append(numerals[i]);  // Append the Roman numeral
-                num -= values[i];  // Subtract the value from num
+                num -= values[i];  // Subtract the value from num. This line subtracts values[i] from num. It essentially
+                                    // reduces num by the value of the Roman numeral you just appended.
             }
         }
 
