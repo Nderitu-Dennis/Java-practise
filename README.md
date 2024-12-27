@@ -6,7 +6,7 @@ StringBuilder is used to construct the Roman numeral string as we iterate throug
 - [x] Efficient Modifications: Unlike String, which is immutable (every modification creates a new object), StringBuilder allows modifications without creating new objects, improving performance when working with many string operations.
 - [x] You can append characters or strings to a StringBuilder instance without worrying about creating new objects.
       
-```
+```java
 StringBuilder roman = new StringBuilder();
 ```
 
