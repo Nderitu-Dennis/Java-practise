@@ -11,7 +11,9 @@ StringBuilder roman = new StringBuilder();
 ```
 
 Initialization: A new StringBuilder instance named roman is created. Initially, it is empty.
-```roman.append(numerals[i]);```
+```
+roman.append(numerals[i]);
+```
 
 Appending Strings: The append() method adds the corresponding Roman numeral (numerals[i]) to the current sequence in roman. Each time a numeral is appended, the StringBuilder is updated in place, avoiding the creation of new string objects.
 Converting to a String: Once all Roman numeral symbols have been appended, the toString() method converts the StringBuilder contents into a standard String for the final output.
