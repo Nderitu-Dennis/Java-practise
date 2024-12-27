@@ -1,3 +1,5 @@
+package parking_hours;
+
 public class Answer {
     public static void main(String[] args) {
         // Create an instance of the Solution class

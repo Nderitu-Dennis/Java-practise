@@ -1,3 +1,5 @@
+package parking_hours;
+
 import java.time.LocalTime;
 import java.time.Duration;
 
