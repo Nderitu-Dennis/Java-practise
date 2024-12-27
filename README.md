@@ -3,7 +3,7 @@ The StringBuilder class in Java is a mutable sequence of characters,
 designed for efficiently building and modifying strings. In the context of the Roman numeral converter code, 
 StringBuilder is used to construct the Roman numeral string as we iterate through the number.
 ## Why use StringBuilder?
-[x] Efficient Modifications: Unlike String, which is immutable (every modification creates a new object), StringBuilder allows modifications without creating new objects, improving performance when working with many string operations.
+- [ ] Efficient Modifications: Unlike String, which is immutable (every modification creates a new object), StringBuilder allows modifications without creating new objects, improving performance when working with many string operations.
 [x] You can append characters or strings to a StringBuilder instance without worrying about creating new objects.
 ```StringBuilder roman = new StringBuilder();
 ```
