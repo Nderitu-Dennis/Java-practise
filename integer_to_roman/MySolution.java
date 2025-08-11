@@ -18,6 +18,8 @@ public class MySolution {
 
         for(int i=0; i<numbers.length; i++) {
             while (decimalNumber >= numbers[i]) {
+                //numbers[i]: This accesses the value at the current index i in the numbers array.
+                //i=0 but numbers[i] is 1000
                 //append the roman number
                 roman.append(romanNumeral[i]);
 
